@@ -1,0 +1,14 @@
+{
+  "name": "AngularJS",
+  "version": "1.0.0",
+  "description": "This project is the repository for the AngularJS 1 course",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/planetoftheweb/angular.git"
+  },
+  "author": "Mark J. Buckler",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}
