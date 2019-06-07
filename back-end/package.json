@@ -1,0 +1,19 @@
+{
+  "name": "my-message-backend",
+  "version": "1.0.0",
+  "description": "server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Max Woods",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.24.0",
+    "mongodb": "^3.2.7",
+    "mongoose": "^5.5.2"
+  }
+}

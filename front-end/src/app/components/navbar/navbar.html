@@ -1,0 +1,20 @@
+<nav class="navbar navbar-static-top navbar-inverse"
+ng-controller="NavbarController as nav">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <span class="glyphicon glyphicon-home"></span> My Message Board
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+      <ul class="nav navbar-nav">
+        <li class="active"><a ng-href="#">Home</a></li>
+        <li><a ui-sref="auth"
+          ng-hide="nav.isAuthenticated()">Login</a></li>
+        <li><a ng-click="nav.logout()" ui-sref="auth"
+          ng-show="nav.isAuthenticated()">Logout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
